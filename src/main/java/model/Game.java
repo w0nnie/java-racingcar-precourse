@@ -1,5 +1,7 @@
 package model;
 
+import service.CarRaceServiceImpl;
+
 import java.util.List;
 
 public class Game {
@@ -29,7 +31,6 @@ public class Game {
      */
     public void start() {
         Output output = new Output();
-        output.getRaceResultMessage();
-
+        output.getRaceResultMessage(raceCount, carNames);
     }
 }
