@@ -23,10 +23,6 @@ public class Car {
         return randomNum;
     }
 
-    public String setName(String name) {
-        return this.name = name;
-    }
-
     public void setPosition(int position) {
         this.position = position;
     }

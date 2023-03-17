@@ -8,7 +8,7 @@ import java.util.List;
 
 public class MainController {
     Input input = new Input();
-    ;
+
     public void run() {
         List<Car> carNames = input.getCarNameInputMessage();
         int raceCount = input.getRaceCountInputMessage();
