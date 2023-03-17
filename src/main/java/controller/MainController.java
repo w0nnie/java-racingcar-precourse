@@ -5,7 +5,7 @@ import model.Game;
 import model.Input;
 
 import java.util.List;
-
+//방장좌
 public class MainController {
     Input input = new Input();
 
