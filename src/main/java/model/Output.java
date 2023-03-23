@@ -11,7 +11,7 @@ public class Output {
     public static final String NEW_LINE = "\n";
     private static final String CAR_POSITION = "-";
     private static final String RACE_RESULT_MESSAGE = "실행 결과";
-    private static final String FINAL_WINNERS_MESSAGE = "최종 우승자";
+    private static final String FINAL_WINNERS_MESSAGE = "최종 우승자 :";
 
     CarRaceService carRaceService = new CarRaceServiceImpl();
 

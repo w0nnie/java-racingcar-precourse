@@ -1,9 +1,9 @@
 package model;
 
+import camp.nextstep.edu.missionutils.Console;
+
 import java.util.ArrayList;
-import java.util.InputMismatchException;
 import java.util.List;
-import java.util.Scanner;
 
 public class Input {
 
@@ -29,8 +29,7 @@ public class Input {
      * @return splitCarNames
      */
     private List<Car> getCarNames() {
-        Scanner scanner = new Scanner(System.in);
-        String beforeProcessingCarNames = scanner.nextLine();
+        String beforeProcessingCarNames = Console.readLine();
 
         return splitCarNames(beforeProcessingCarNames);
     }
@@ -85,11 +84,11 @@ public class Input {
      * @return
      */
     private int getRaceCount() {
-        Scanner scanner = new Scanner(System.in);
         try {
-            int raceCount = scanner.nextInt();
+            int raceCount = Integer.parseInt(Console.readLine());
+            System.out.println("raceCount = " + raceCount);
             return raceCount;
-        } catch (InputMismatchException error) {
+        } catch (NumberFormatException error) {
             throw new IllegalArgumentException(INPUT_RACE_COUNT_VALIDATE_ERROR_MESSAGE);
         }
     }
