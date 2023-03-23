@@ -10,6 +10,9 @@ public class Car {
     public Car(String name) {
         this.name = name;
     }
+    public void CarPositionPlus(int position) {
+        this.position += position;
+    }
 
     public String getName() {
         return name;

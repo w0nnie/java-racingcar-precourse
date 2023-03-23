@@ -87,7 +87,6 @@ public class Input {
     private int getRaceCount() {
         try {
             int raceCount = Integer.parseInt(Console.readLine());
-            System.out.println("raceCount = " + raceCount);
             return raceCount;
         } catch (NumberFormatException error) {
             throw new IllegalArgumentException(INPUT_RACE_COUNT_VALIDATE_ERROR_MESSAGE);
