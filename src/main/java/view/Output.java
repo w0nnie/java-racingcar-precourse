@@ -14,7 +14,7 @@ public class Output {
     private static final String RACE_RESULT_MESSAGE = "실행 결과";
     private static final String FINAL_WINNERS_MESSAGE = "최종 우승자 :";
 
-    CarRaceService carRaceService = new CarRaceServiceImpl();
+    CarRaceService carRaceService = new CarRaceServiceImpl(); // 추상객체에만 의존해야하는데 구현객체까지 의존함 ;; ㅠ
 
     /**
      * 실행결과 메세지를 출력한다.
