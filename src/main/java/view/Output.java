@@ -1,5 +1,6 @@
-package model;
+package view;
 
+import model.Car;
 import service.CarRaceService;
 import service.CarRaceServiceImpl;
 

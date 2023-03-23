@@ -1,7 +1,7 @@
 package service;
 
 import model.Car;
-import model.Output;
+import view.Output;
 
 import java.util.ArrayList;
 import java.util.List;

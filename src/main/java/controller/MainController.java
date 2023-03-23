@@ -2,7 +2,7 @@ package controller;
 
 import model.Car;
 import model.Game;
-import model.Input;
+import view.Input;
 
 import java.util.List;
 //방장좌

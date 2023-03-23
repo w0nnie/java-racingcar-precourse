@@ -1,6 +1,7 @@
-package model;
+package view;
 
 import camp.nextstep.edu.missionutils.Console;
+import model.Car;
 
 import java.util.ArrayList;
 import java.util.List;
